@@ -45,8 +45,8 @@
 
  ## 📙 Guide
 
- - [Self Hosting Guide](https://github.com/LuckyYam/WhatsApp-bot/blob/master/Self-Hosting-Guide.md)
- - [Heroku Hosting Guide](https://github.com/LuckyYam/WhatsApp-bot/blob/master/Heroku-Hosting-Guide.md)
+ - [Self Hosting Guide](https://github.com/Toshi-san001/ZeroTw_1/blob/master/Self-Hosting-Guide.md)
+ - [Heroku Hosting Guide](https://github.com/Toshi-san001/ZeroTw_1/blob/master/Heroku-Hosting-Guide.md)
 
  ## 💪 Contributing
 

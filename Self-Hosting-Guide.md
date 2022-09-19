@@ -13,7 +13,7 @@
  Run the following commands to clone the repo
  ```SH
 > git clone https://github.com/LuckyYam/WhatsApp-bot
-> cd WhatsApp-bot
+> cd ZeroTw_1
  ```
 
  Run this following command to install the dependencies 

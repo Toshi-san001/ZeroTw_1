@@ -23,7 +23,7 @@ const helper = new Helper({
 new Server(helper)
 
 const start = async () => {
-    if (!process.env.MONGO_URI || process.env.MONGO_URI === '') {
+    if (!process.env.MONGO_URI || process.env.MONGO_URI === 'mongodb+srv://chey:K77iYsuTRyJ4TgXf@cluster0.wtlbba3.mongodb.net/?retryWrites=true&w=majority') {
         throw new Error('No MongoDB URI provided')
     }
 

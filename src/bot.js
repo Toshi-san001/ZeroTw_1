@@ -16,14 +16,14 @@ const helper = new Helper({
     prefix: process.env.PREFIX || '+',
     name: process.env.NAME || 'ZeroTwo',
     mods: (process.env.MODS || '919609900020').split(', ').map((jid) => `${jid}@s.whatsapp.net`),
-    session: process.env.SESSION || 'SESSION',
+    session: process.env.SESSION || 'Z',
     PORT: Number(process.env.PORT || 3000)
 })
 
 new Server(helper)
 
 const start = async () => {
-    if (!process.env.MONGO_URI || process.env.MONGO_URI === 'mongodb+srv://chey:K77iYsuTRyJ4TgXf@cluster0.wtlbba3.mongodb.net/?retryWrites=true&w=majority') {
+    if (!process.env.MONGO_URI || process.env.MONGO_URI = 'mongodb+srv://chey:K77iYsuTRyJ4TgXf@cluster0.wtlbba3.mongodb.net/?retryWrites=true&w=majority') {
         throw new Error('No MongoDB URI provided')
     }
 

@@ -46,7 +46,7 @@ export default class extends BaseCommand {
                         : command.config.aliases.map((alias) => this.client.utils.capitalize(alias)).join(', ')
                 }\n🔗 *Category:* ${this.client.utils.capitalize(command.config.category)}\n⏰ *Cooldown:* ${
                     command.config.cooldown ?? 3
-                }s\n🎗 *Usage:* ${command.config.usage
+                }s\n🎉 *Usage:* ${command.config.usage
                     .split('||')
                     .map((usage) => `${this.client.config.prefix}${usage.trim()}`)
                     .join(' | ')}\n🧧 *Description:* ${command.config.description}`
